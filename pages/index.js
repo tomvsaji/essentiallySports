@@ -21,7 +21,7 @@ export default function Home() {
             className={styles.jumbotron}
             src="/images/image 14.png"
           />
-          <h1 className={styles.jumboText}>What's your next<br /> destination?</h1>
+          <h1 className={styles.jumboText}>Whats your next<br /> destination?</h1>
           <button className={styles.jumboButton}>Explore roles</button>
         </div>
       </header>
