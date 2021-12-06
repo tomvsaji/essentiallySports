@@ -1,0 +1,12 @@
+.container {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  background-color: #ffff;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+  padding: 0px 16px;
+  height: 70px;
+}
