@@ -182,7 +182,7 @@ export default function Home() {
             <div className={styles.circle}>
               <img src="/images/vector_sports-removebg-preview 2.png" />
             </div>
-            <p>Like-Minded Sports Fans' Culture</p>
+            <p>Like-Minded Sports Fans&apos; Culture</p>
             </div>
             
             <div className={styles.perks}>
@@ -327,13 +327,13 @@ export default function Home() {
       <Image src="/images/image 1.png" width="230" height="42" />
       
       <div className={styles.contactLinks}>
-      <a target="_blank" href="https://www.facebook.com/essentiallysports/">
+      <a target="_blank" rel="noreferrer" href="https://www.facebook.com/essentiallysports/">
       <img  src="images/facebook logo 1.png" />
       </a>
-      <a target="_blank" href="https://twitter.com/es_sportsnews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> 
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/es_sportsnews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> 
       <img src="/images/twitter.png" />
       </a>
-      <a target="_blank" href="https://www.linkedin.com/company/essentially-sports/?originalSubdomain=in">
+      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/essentially-sports/?originalSubdomain=in">
       <img src="/images/linked.png" />
       </a>
       <a href="mailto:hr@essentiallysports.com">
