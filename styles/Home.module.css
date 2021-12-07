@@ -6,15 +6,15 @@
 }
 
 .jumbotron {
-    width: 100%;
     height: 100vh;
+    width: 100%;
     object-fit: cover;
     z-index: -1;
 }
 
 .jumboText {
     position: absolute;
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 5000;
     line-height: 1.3; 
     left: 50%;
@@ -23,12 +23,12 @@
 
 .jumboButton {
     position: absolute;
-    width: 350px;
+    width: 38vw;
     height: auto;
     padding: 1%;
     left: 50%;
     top: 80%;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;
@@ -49,7 +49,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 600;
     margin: 60px auto;
 }
@@ -63,7 +63,7 @@
 }
 
 .textOne {
-    font-size: 18px;
+    font-size: 1.5rem;
     background-color: #FFF7F7;
     padding: 30px 25px;
     border-radius: 15px;
@@ -84,11 +84,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px;
+    margin: 5%;
 }
 
 .num {
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 700;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
@@ -96,6 +96,7 @@
 .text {
     font-weight: 700;
     text-shadow: 0 0.5px 1px #FF2626;
+    font-size: 30px;
 }
 
 .globe{
@@ -138,7 +139,7 @@
 }
 
 .item1 {
-    height: 200px;
+    min-height: 200px;
     border: 2px solid black;
     border-radius: 16px;
     background-color: var(--clr-esRed);
@@ -159,17 +160,6 @@
     padding: 3%;
 }
 
-@media only screen and (max-width: 1100px) {
-    .containerOne {
-        flex-direction: column;
-    }
-
-    .containerOne img {
-        margin-bottom: 3%;
-        width: 100%;
-        height: 100%;
-    }
-}
 
 .containerTwo {
     display: flex;
@@ -221,13 +211,54 @@
 }
 
 @media only screen and (max-width: 1100px) {
+
+    .textOne {
+        font-size: 3.5rem;
+    }
+
+    .intro {
+       font-size: 5rem;
+    }
+
+    .containerOne {
+        flex-direction: column;
+    }
+
+    .containerOne img {
+        margin-bottom: 3%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerOneFacts{
+        font-size: 2rem;
+    }
+
+    .containerTwoFacts{
+        font-size: 2rem;
+        
+    }
+
     .containerTwo {
         flex-direction: column;
     }
+
     .containerTwo img {
         margin: 3%;
         width: 100%;
         height: 100%;
+    }
+
+    .item1 {
+        min-height: auto;
+    }
+
+    .item3 {
+        min-height: auto;
+    }
+
+    .itemBottom {
+        min-height: auto;
     }
 }
 
@@ -373,8 +404,6 @@
 @media only screen and (max-width: 1100px) {
    
     .details {
-        display: flex;
-        flex-direction: column;
         margin: 60px;
     }
 }

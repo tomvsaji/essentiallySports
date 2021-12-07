@@ -5,6 +5,10 @@
   box-sizing:border-box;
 }
 
+html {
+  font-size: 1vw;
+}
+
 :root{
   --clr-esRed: #F95750
 }
