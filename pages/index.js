@@ -324,7 +324,7 @@ export default function Home() {
       </main>
 
       <section className={styles.contactSection}>
-      <Image src="/images/image 1.png" width="230" height="42" />
+      <img src="/images/image 1.png" width="230" height="42" />
       
       <div className={styles.contactLinks}>
       <a target="_blank" rel="noreferrer" href="https://www.facebook.com/essentiallysports/">
