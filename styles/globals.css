@@ -10,5 +10,6 @@ html {
 }
 
 :root{
-  --clr-esRed: #F95750
+  --clr-esRed: #F95750;
+  --res-ftsize: 3.8rem;
 }
