@@ -14,7 +14,7 @@
 
 .jumboText {
     position: absolute;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 5000;
     line-height: 1.3; 
     left: 50%;
@@ -25,12 +25,12 @@
 
 .jumboButton {
     position: absolute;
-    width: 28vw;
+    width: 20rem;
     height: auto;
     padding: 1%;
     left: 50%;
     top: 80%;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;
@@ -40,21 +40,9 @@
     border-color: var(--clr-esRed);
 }
 
-@media only screen and (max-width: 1080px){
-    .jumboText {
-        top: 50vh;
-        left: 40%;
-        font-size: 7rem;
-    }
-
-    .jumboButton {
-        top: 75vh;
-        left:  40%;
-        font-size: 6rem;
-        width: 40vw;
-        height: auto;
-    }
-}
+/* @media only screen and (max-width: 1000px){
+    
+} */
 
 .content {
     padding: 0 6vw;
@@ -83,7 +71,7 @@
 .textOne {
     font-size: 1.5rem;
     background-color: #FFF7F7;
-    padding: 30px 25px;
+    padding: 2rem 1.2rem;
     border-radius: 15px;
     margin-bottom: 20px;
 }
@@ -102,11 +90,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10%;
+    margin: 5%;
 }
 
 .num {
-    font-size: 70px;
+    font-size: 5rem;
     font-weight: 700;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
@@ -114,7 +102,7 @@
 .text {
     font-weight: 700;
     text-shadow: 0 0.5px 1px #FF2626;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .globe{
@@ -279,35 +267,12 @@
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 651px) {
-  .perks {
-     width: 30vw;
-     height: 30vw;
-     margin-bottom: 10vw;
-  }
-
-  .circle{
-    width: 25vw;
-    height: 25vw;
-  }
-
-  .circle img {
-    width: 17vw;
-    height: 17vw;
-  }
-
-  .perks p {
-    font-size: 2.5rem;
-  }
-}
-
-
 
 .testimonials {
-    font-size: 23px;
+    font-size: 1.5rem;
     background-color: #FFF7F7;
-    padding: 30px 25px;
-    margin-bottom: 20px;
+    padding: 1rem 8rem;
+    margin-bottom: 4rem;
     font-weight: 550;
     text-align: center;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -315,7 +280,7 @@
 }
 
 .testimonials p {
-    padding: 20px;
+    padding: 1rem;
 }
 
 .postContainer {
@@ -336,8 +301,6 @@
     -webkit-text-stroke-width: 0.45px ;
     -webkit-text-stroke-color: var(--clr-esRed) ;
 }
-
-
 
 .joinUsText {
     text-align: center;
@@ -372,6 +335,7 @@
 
 .details {
     width: 100%;
+    font-size: 1rem;
 }
 
 .details a{
@@ -384,33 +348,73 @@
     color: var(--clr-esRed) ;
 }
 
-
-
 .footer {
     margin: 30px;
     text-align: center;
+    font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 700px) {
+/* Media Queries */
+
+@media only screen and (max-width: 651px) {
+    .perks {
+       width: 30vw;
+       height: 30vw;
+       margin-bottom: 25vw;
+  
+    }
+  
+    .circle{
+      width: 25vw;
+      height: 25vw;
+    }
+  
+    .circle img {
+      width: 17vw;
+      height: 17vw;
+    }
+  
+    .perks p {
+      font-size: 0.8rem;
+    }
+  
+    .stats {
+        margin-bottom: 9%;
+    }
+
+    .details {
+        padding: 5%;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
     .textOne {
         font-size: var(--res-ftsize);
     }
 
     .intro {
-        font-size: 5rem;
+        font-size: 1.5rem;
      }
-
-     .num {
-        font-size: 15rem;
-     }
- 
-     .text {
-         font-size: 5rem;
-     }
-
-     .joinUsText {
-         font-size: var(--res-ftsize);  
+    
+    .testimonials{
+        padding: 1rem;
+        font-size: var(--res-ftsize);
     }
+
+    .jumboText {
+        top: 63vh;
+        left: 40%;
+        font-size: 1.5rem;
+    }
+
+    .jumboButton {
+        top: 75vh;
+        left:  40%;
+        font-size: 1rem;
+        width: 10rem;
+        height: 3rem;
+    }
+    
 }
 
 @media only screen and (max-width: 1132px) {
@@ -426,12 +430,11 @@
     }
 
     .containerOneFacts{
-        font-size: 2rem;
+        font-size: 0.8rem;
     }
 
     .containerTwoFacts{
-        font-size: 2rem;
-        
+        font-size: 0.8rem;
     }
 
     .containerTwo {
@@ -466,5 +469,9 @@
 
     .postBlock {
         width: 300px;
+    }
+
+    .perks p{
+        width: auto;
     }
 }

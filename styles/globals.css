@@ -6,10 +6,10 @@
 }
 
 html {
-  font-size: 1vw;
+  font-size: 16px;
 }
 
 :root{
   --clr-esRed: #F95750;
-  --res-ftsize: 3.8rem;
+  --res-ftsize: 1.1rem;
 }

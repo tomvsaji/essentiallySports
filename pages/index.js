@@ -239,9 +239,9 @@ export default function Home() {
           <img
             style={{
               position: "absolute",
-              top: "80%",
-              left: "38%",
-              width: "280px",
+              top: "75%",
+              left: "30%",
+              maxWidth: "50%",
               height: "auto",
             }}
             src="/images/call button.png"
@@ -296,7 +296,7 @@ export default function Home() {
               display: "block",
               marginLeft: "auto",
               marginRight: "auto",
-              width: "10%",
+              width: "6rem",
               marginTop: "60px",
             }}
           />
